@@ -61,81 +61,63 @@ h1 {
   line-height: 1.2;
   font-weight: bold;
 }
-/* WARNING:  */
-/* ABOUT STYLES */
 
+/* ABOUT STYLES */
 /*SERVICES SECTION STYLES */
+.services {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+.item img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.first-img {
+  width: 3.5rem;
+}
 
 /* INFO SECTION STYLES */
-
-/* FOOTER STYLES */
-footer {
-  background-color: azure;
+.info {
   display: flex;
+  justify-content: center;
+}
+.details {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  width: 35%;
+  margin-bottom: 5rem;
+  margin-right: 5%;
 }
-footer img {
-  height: 1.5rem;
-  padding: 4rem 1rem 4rem 4rem;
+h2 {
+  color: white;
+  font-weight: bold;
+  background: cadetblue;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
 }
-footer span {
 
-}
-
-/*
-<header>
-  <nav class="container">
-    <div class="title">
-      <img src="resources/images/logo-white.png" alt="logo">
-      <span>Tortoiseshell Optics</span>
-    </div>
-    <div class="menu">
-      <ul>
-        <li>Services</li>
-        <li>Products</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-  </nav>
-  <div class="flex container">
-    <div class="main-banner">
-      <h1>DON'T JUST LOOK, SEE.</h1>
-    </div>
-  </div>
-</header>
-
-<!-- ABOUT -->
-<!-- SERVICES SECTION -->
-<section class="services">
-  <div class="item">
-      <img src="resources/images/paper-icon.png" alt="Exams">
-      <span>Comprehensive Exams</span>
-    </div>
-  <div class="item">
-      <img src="resources/images/ruler-icon.png" alt="Fittings">
-      <span>Custom Fittings</span>
-    </div>
-  <div class="item">
-      <img src="resources/images/truck-icon.png" alt="Truck">
-      <span>Fast Delivery</span>
-    </div>
-</section>
-  <!-- INFO SECTION -->
-<section class="info container">
-    <div class="details">
-      <h2>PHILOSOPHY</h2>
-      <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world, not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your vision that makes ours.</p>
-    </div>
-    <div class="details">
-      <h2>APPOINTMENTS</h2>
-      <p>Schedule an appointment by calling us at (312) 654-0987. We’re open Tuesday - Saturday, 9AM - 6PM.</p>
-    </div>
-  </section>
-
-<!-- FOOTER -->
-<footer class="container">
-  <img src="resources/images/logo-black.png" alt="logo">
-  <span>&copy; Tortoiseshell Optics</span>
-</footer>
-*/
+  /* FOOTER STYLES */
+  footer {
+    background-color: azure;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer img {
+    height: 1.5rem;
+    padding: 4rem 1rem 4rem 4rem;
+  }
