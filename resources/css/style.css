@@ -41,6 +41,9 @@ nav li {
   display: inline;
   padding-right: 2rem;
 }
+.small-media {
+  display: none;
+}
 .title img {
   height: 1.5rem;
   margin-right: 1rem;
@@ -73,6 +76,28 @@ h1 {
   }
   h1 {
     font-size: 1.33rem;
+  }
+}
+@media only screen and (max-width: 560px){
+  header {
+    height: 17rem;
+    padding-top: 0;
+    background-position: 20%;
+  }
+  .menu, .title span {
+    display: none;
+  }
+  .small-media {
+    display: block;
+  }
+  .main-banner {
+    width: 100%;
+    padding: 1rem auto;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1rem;
   }
 }
 /* ABOUT STYLES */
