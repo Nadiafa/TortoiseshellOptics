@@ -189,3 +189,11 @@ h2 {
     height: 1.5rem;
     padding: 4rem 1rem 4rem 4rem;
   }
+@media only screen and (max-width: 560px){
+  footer span {
+    display: none;
+  }
+  footer {
+    justify-content: center;
+  }
+}
