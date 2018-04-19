@@ -46,9 +46,6 @@ nav li {
   margin-right: 1rem;
   margin-left: 2rem;
 }
-header .flex {
-  justify-content: flex-end;
-}
 .main-banner {
   background-color: white;
   display: inline-block;
@@ -61,7 +58,23 @@ h1 {
   line-height: 1.2;
   font-weight: bold;
 }
-
+@media only screen and (max-width: 970px) {
+  .container {
+    max-width: 100%;
+  }
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+  .main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  h1 {
+    font-size: 1.33rem;
+  }
+}
 /* ABOUT STYLES */
 /*SERVICES SECTION STYLES */
 .services {
